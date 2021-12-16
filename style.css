@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
 body {
     background-color: linen;
 }
@@ -6,6 +11,10 @@ body {
     padding: 15px;
     border-radius: 15px;
     width: 600px;
+}
+ul li {
+    text-decoration: none;
+    list-style: none;
 }
 h1 {
     color: rgb(245, 94, 120);
