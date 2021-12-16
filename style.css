@@ -23,7 +23,6 @@ body {
 .box{
     border: black solid 2px;
     padding: 15px;
-    border-radius: 15%;
     width: 600px;
     text-decoration: none;
 }
@@ -42,8 +41,11 @@ h3 {
 .box2 {
     padding: 5px;
     border: 5px solid purple;
-    background-color: #eeeeee;
-    border-radius: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+    width: auto;
+    text-align: center;
+    text-justify:newspaper;
 }
 .green {
     color: green;
