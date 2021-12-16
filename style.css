@@ -44,12 +44,18 @@ h3 {
     background-color: lightgray;
     border-radius: 15px;
     width: auto;
-    text-align: center;
+    text-align: left;
     text-justify:newspaper;
 }
-.green {
+.email {
     color: green;
+    text-transform:uppercase;
 }
-.red {
+.webaddress {
     color: red;
+    text-transform: uppercase;
+}
+.tel {
+    color: inherit;
+    text-transform: uppercase;
 }
