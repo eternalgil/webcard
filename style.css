@@ -4,13 +4,28 @@
     padding: 0%;
 }
 body {
-    background-color: linen;
+    background-color: #9b59b6;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0%;
+}
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
 }
 .box{
     border: black solid 2px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 15%;
     width: 600px;
+    text-decoration: none;
 }
 ul li {
     text-decoration: none;
